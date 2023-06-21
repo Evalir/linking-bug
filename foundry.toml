@@ -2,5 +2,6 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+libraries = ["./src/Counter.sol:B:0xBB3f0524710fF3c6B929CF0AE4271D4f78504b46", "./src/Counter.sol:A:0xdcc3D920BEf54E64234fdA75D6235EBA76ecE99C"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
