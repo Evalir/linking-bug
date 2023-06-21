@@ -7,3 +7,5 @@ There are a few weird things here that seem to compose a weird bug:
 - If you log any of the Library addresses, no test is detected by forge. You'll have to comment the logs and recompile the files.
 - If the unused function foo() from Contract that calls `Library` is removed, the test passes.
 - If you call `foo()` instead of `callLibrary2()`, the test passes.
+
+Doing foundryup will make this test pass.
